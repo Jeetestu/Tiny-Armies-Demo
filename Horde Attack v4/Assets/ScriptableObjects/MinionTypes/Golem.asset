@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab07d0e01ee0bf341884fa11116511f0, type: 3}
+  m_Name: Golem
+  m_EditorClassIdentifier: 
+  health: 50
+  moveSpeed: 4
+  damage: 20
+  attackTime: 0.5
+  reloadTime: 1.5
+  attackRange: 1
+  attackPushback: 40
+  aggroRange: 4
+  coins: 0
+  offset: {x: 0, y: 0}
+  radius: 0.75
+  pushbackRadius: 1.1
+  weaponSprite: {fileID: 21300000, guid: 6299575b8368a26498b4542ae20838bc, type: 3}
+  weaponPivotOffset: {x: 0.6, y: 0.31, z: 0}
+  deathSound: {fileID: 8300000, guid: 5672cb5df4b75c3479ad96959813e311, type: 3}
+  hitSound: {fileID: 8300000, guid: 06c64f23c57574a3baa74cfd01f6b940, type: 3}
+  animationController: {fileID: 22100000, guid: 27c9653683110604898eed545cc15f11, type: 2}

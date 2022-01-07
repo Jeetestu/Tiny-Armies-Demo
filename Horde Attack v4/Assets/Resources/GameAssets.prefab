@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7701565631030568551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3163696821137102109}
+  - component: {fileID: 5855231808310291999}
+  m_Layer: 0
+  m_Name: GameAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3163696821137102109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701565631030568551}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.003541, y: -0.69263077, z: -0.6352583}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5855231808310291999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701565631030568551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6cf17feeb44eb419241b9fefbfc30c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basicCoinPrefab: {fileID: 13437153508222001, guid: 5a9e2c2e7bd6487448fcc03f4140b07b, type: 3}
+  coinPrefab: {fileID: 3146742352710772673, guid: e03b7e7ee1580d74083936c28a9ff42c, type: 3}
+  AIHordePrefab: {fileID: 6879921815533385835, guid: e0068ec0c30e2cd43b403d455faab80c, type: 3}
+  playerHordePrefab: {fileID: 7327105679837999559, guid: 9be1acedf5aab0040b374565f900c718, type: 3}
+  damagePopupPrefab: {fileID: 7440327748013048865, guid: cfa132a2192eb9f4cb222eb99b2f1b2e, type: 3}
+  soulPrefab: {fileID: 3118481012845606191, guid: e7295ce065690ae40baad91c358f9806, type: 3}
+  minionPrefab: {fileID: 6082327253713724248, guid: 99e76df6148ba3d4a95af3285b397025, type: 3}
+  damagedColor: {r: 1, g: 0, b: 0, a: 1}

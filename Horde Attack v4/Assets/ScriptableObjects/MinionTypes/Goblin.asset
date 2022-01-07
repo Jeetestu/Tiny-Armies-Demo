@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab07d0e01ee0bf341884fa11116511f0, type: 3}
+  m_Name: Goblin
+  m_EditorClassIdentifier: 
+  health: 8
+  moveSpeed: 6
+  damage: 2
+  attackTime: 0.1
+  reloadTime: 0.5
+  attackRange: 0.5
+  attackPushback: 20
+  aggroRange: 2
+  coins: 3
+  offset: {x: 0, y: 0}
+  radius: 0.45
+  pushbackRadius: 0.6
+  weaponSprite: {fileID: 21300000, guid: 8ec221bd4a3d6e64886e1e777fc2b539, type: 3}
+  weaponPivotOffset: {x: 0.398, y: 0.339, z: 0}
+  deathSound: {fileID: 8300000, guid: 5108421ce3d2e254286de0e3b5021e42, type: 3}
+  hitSound: {fileID: 8300000, guid: e1c46311240d04071ad00f2e40cc164e, type: 3}
+  animationController: {fileID: 22100000, guid: 674db4b3055aa11439126620bdb24457, type: 2}
